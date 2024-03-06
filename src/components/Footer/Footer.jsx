@@ -1,5 +1,7 @@
+import { FooterWrapper } from "./Footer.styled";
+
 function Footer() {
-  return <div>Footer</div>;
+  return <FooterWrapper>Footer</FooterWrapper>;
 }
 
 export default Footer;
