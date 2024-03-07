@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import RootLayout from "./RootLayout/RootLayout";
+import RootLayout from "../layouts/RootLayout";
 import Home from "../pages/Home/Home";
 import { useState } from "react";
 import Privacy from "../pages/Privacy/Privacy";
@@ -32,9 +32,19 @@ function App() {
     return savedTheme === "light" ? true : false;
   });
 
+  const toggleTheme = () => {
+    setIsDarkTheme((prevTheme) => !prevTheme);
+    localStorage.setItem("theme", isDarkTheme ? "light" : "dark");
+  };
+
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
+      <Route
+        path="/"
+        element={
+          <RootLayout toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+        }
+      >
         <Route index element={<Home />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />

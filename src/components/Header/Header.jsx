@@ -1,6 +1,7 @@
 import { HeaderNavWrapper, HeaderWrapper } from "./Header.styled";
 
-function Header() {
+// eslint-disable-next-line react/prop-types
+function Header({ toggleTheme, isDarkTheme }) {
   return (
     <HeaderWrapper>
       <span>logo</span>
