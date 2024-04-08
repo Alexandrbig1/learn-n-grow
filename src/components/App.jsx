@@ -17,11 +17,19 @@ const theme = {
   light: {
     colors: {
       mainBgColor: "#7d45e4",
+      mainBgColorLowOp: "#3e3e3e50",
+      accentColor: "#bfd6ea",
+      accentColorHover: "#99abbb",
+      mainTextColor: "#121417",
     },
   },
   dark: {
     colors: {
       mainBgColor: "#242424",
+      mainBgColorLowOp: "#7d45e420",
+      accentColor: "#bfd6ea",
+      accentColorHover: "#99abbb",
+      mainTextColor: "#121417",
     },
   },
 };

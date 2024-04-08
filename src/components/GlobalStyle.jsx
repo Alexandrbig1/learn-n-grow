@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: ${primaryFont};
     margin: 0;
     overflow-x: hidden;
-
+background-color: ${(p) => p.theme.colors.mainBgColor};
     min-height: 100vh;
   }
 
