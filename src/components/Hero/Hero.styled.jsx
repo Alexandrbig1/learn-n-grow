@@ -54,8 +54,8 @@ export const HeroTitleWrapper = styled.div`
 export const HeroTitle = styled.h1`
   font-family: ${robotoFont};
   font-weight: 500;
-  font-size: 48px;
-  line-height: 1.16667;
+  font-size: 4.6rem;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   color: ${(p) => p.theme.colors.mainTextColor};
 `;
@@ -74,11 +74,7 @@ export const HeroText = styled.p`
 `;
 
 export const HeroButton = styled.button`
-  font-family: ${robotoFont};
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.55556;
-  color: ${(p) => p.theme.colors.mainTextColor};
+  align-self: self-end;
   border: none;
   outline: none;
   background: none;
@@ -87,10 +83,27 @@ export const HeroButton = styled.button`
   padding: 1.2rem 2.4rem;
   width: 28rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
 
   transition: all var(--primary-transition);
 
   &:hover {
     background-color: ${(p) => p.theme.colors.accentColorHover};
   }
+`;
+
+export const HeroBtnText = styled.span`
+  font-family: ${robotoFont};
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: ${(p) => p.theme.colors.mainTextColorRev};
+`;
+
+export const HeroIcon = styled.span`
+  font-size: 2.4rem;
+  color: ${(p) => p.theme.colors.mainTextColorRev};
 `;

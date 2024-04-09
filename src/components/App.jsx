@@ -16,17 +16,18 @@ import NotFound from "../pages/NotFound/NotFound";
 const theme = {
   light: {
     colors: {
-      mainBgColor: "#7d45e4",
-      mainBgColorLowOp: "#3e3e3e50",
-      accentColor: "#bfd6ea",
-      accentColorHover: "#99abbb",
+      mainBgColor: "#f1f5f9",
+      mainBgColorLowOp: "#3e3e3e10",
+      accentColor: "#00b4d8",
+      accentColorHover: "#0090ad",
       mainTextColor: "#121417",
+      mainTextColorRev: "#f1f5f9",
     },
   },
   dark: {
     colors: {
       mainBgColor: "#242424",
-      mainBgColorLowOp: "#7d45e420",
+      mainBgColorLowOp: "#f1f5f920",
       accentColor: "#bfd6ea",
       accentColorHover: "#99abbb",
       mainTextColor: "#121417",

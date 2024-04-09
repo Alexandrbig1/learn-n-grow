@@ -1,3 +1,4 @@
+import { IoIosRocket } from "react-icons/io";
 import {
   HeroContainer,
   HeroWrapper,
@@ -9,6 +10,8 @@ import {
   HeroButton,
   HeroTitleWrapper,
   HeroTitleStrong,
+  HeroBtnText,
+  HeroIcon,
 } from "./Hero.styled";
 
 function Hero() {
@@ -33,7 +36,12 @@ function Hero() {
               fluency and cultural enrichment!
             </HeroText>
           </HeroTitleWrapper>
-          <HeroButton>Get Started</HeroButton>
+          <HeroButton>
+            <HeroBtnText>Get Started</HeroBtnText>
+            <HeroIcon>
+              <IoIosRocket />
+            </HeroIcon>
+          </HeroButton>
         </HeroTextWrapper>
       </HeroWrapper>
     </HeroContainer>
