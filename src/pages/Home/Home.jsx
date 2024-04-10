@@ -6,12 +6,16 @@ import { Container } from "../../components/layout";
 
 function Home() {
   return (
-    <Container>
-      <Hero />
-      <About />
+    <>
+      <Container>
+        <Hero />
+        <About />
+      </Container>
       <Contact />
-      <Testimonials />
-    </Container>
+      <Container>
+        <Testimonials />
+      </Container>
+    </>
   );
 }
 
