@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ella Wilson",
+    "position": "architect",
+    "img_url": "https://randomuser.me/api/portraits/women/1.jpg",
+    "stars": 5,
+    "experience": "I had a fantastic experience learning German at a renowned language learning school. The classes were engaging, the instructors were knowledgeable, and the interactive learning environment made the whole experience enjoyable."
+  },
+  {
+    "name": "Lucas Moore",
+    "position": "musician",
+    "img_url": "https://randomuser.me/api/portraits/men/22.jpg",
+    "stars": 4,
+    "experience": "As a musician, I've always been passionate about exploring different cultures through language. Learning English at a language learning school was an enriching experience, and it has greatly enhanced my appreciation for the English-speaking world."
+  },
+  {
+    "name": "Ava Harris",
+    "position": "biologist",
+    "img_url": "https://randomuser.me/api/portraits/women/35.jpg",
+    "stars": 5,
+    "experience": "I decided to learn German at a language learning school to broaden my horizons and connect with more people globally. The curriculum was comprehensive, and the instructors were supportive, making my language learning journey both educational and rewarding."
+  },
+  {
+    "name": "Liam Robinson",
+    "position": "chef",
+    "img_url": "https://randomuser.me/api/portraits/men/44.jpg",
+    "stars": 5,
+    "experience": "Learning English at a language learning school was an incredible experience. Not only did I acquire a new skill that has been beneficial for my culinary career, but I also gained insights into the rich English-speaking culture and traditions."
+  },
+  {
+    "name": "Charlotte Clark",
+    "position": "astronomer",
+    "img_url": "https://randomuser.me/api/portraits/women/44.jpg",
+    "stars": 5,
+    "experience": "Studying German at a language learning school was a fulfilling experience. The school's immersive approach to teaching allowed me to grasp complex concepts quickly, and I now feel confident communicating in German both professionally and personally."
+  }
+]
