@@ -41,7 +41,7 @@ export const HeaderWrapper = styled.div`
 
   color: ${(p) => p.theme.colors.headerTextColor};
 
-  z-index: 50;
+  z-index: 500;
 
   @media (min-width: 768px) {
     max-width: 68.2rem;

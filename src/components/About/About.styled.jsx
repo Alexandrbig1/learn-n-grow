@@ -20,6 +20,7 @@ export const AboutItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 2.4rem;
   background-color: ${(p) => p.theme.colors.mainBgColorLowOp};
   border-radius: 1.2rem;
