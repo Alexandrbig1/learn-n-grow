@@ -35,7 +35,7 @@ export const HeaderWrapper = styled.div`
   margin: 0 auto;
   justify-content: space-between;
 
-  background-color: ${(p) => p.theme.colors.accentColorLowOp};
+  background-color: ${(p) => p.theme.colors.headerBgColor};
   padding: 1.2rem 2.4rem;
   border-radius: 20rem;
 

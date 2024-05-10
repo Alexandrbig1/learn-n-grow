@@ -19,6 +19,7 @@ const theme = {
       accentColor: "#00b4d8",
       accentColorLowOp: "#00b4d830",
       accentColorHover: "#0090ad",
+      headerBgColor: "#00b4d8",
       mainTextColor: "#121417",
       mainTextColorRev: "#f1f5f9",
     },
@@ -30,7 +31,8 @@ const theme = {
       accentColor: "#bfd6ea",
       accentColorLowOp: "#bfd6ea30",
       accentColorHover: "#99abbb",
-      mainTextColor: "#121417",
+      headerBgColor: "#00b4d8",
+      mainTextColor: "#f8fafc",
     },
   },
 };
