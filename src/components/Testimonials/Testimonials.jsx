@@ -54,7 +54,7 @@ const Testimonials = () => {
   const arrowRef = useRef(null);
 
   return (
-    <TestimonialsContainer>
+    <TestimonialsContainer id="testimonials">
       <Slide direction="left">
         <TestimonialsSubTitle>TESTIMONIALS</TestimonialsSubTitle>
         <TestimonialsTitle>WHAT CLIENTS SAY</TestimonialsTitle>

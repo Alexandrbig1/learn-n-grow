@@ -12,7 +12,7 @@ import { AiOutlineThunderbolt } from "react-icons/ai";
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutMenu>
         <AboutItem>
           <AboutIcon>

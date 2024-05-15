@@ -72,7 +72,7 @@ function Contact() {
   };
 
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <ContactWrapper>
         <ContactTitle>Contact</ContactTitle>
         <ContactText>
