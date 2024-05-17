@@ -1,7 +1,14 @@
+import Logo from "../Logo/Logo";
 import { FooterWrapper } from "./Footer.styled";
 
 function Footer() {
-  return <FooterWrapper>Footer</FooterWrapper>;
+  return (
+    <FooterWrapper>
+      <div>
+        <Logo />
+      </div>
+    </FooterWrapper>
+  );
 }
 
 export default Footer;
